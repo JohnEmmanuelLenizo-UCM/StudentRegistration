@@ -1,3 +1,0 @@
-open command prompt and enter the command 'cd Downloads', you can replace 'Downloads' to the directory/folder where tthe .jar file is located
-then enter command 'java -jar StudentRegistrationApp.jar' to run the file
-
