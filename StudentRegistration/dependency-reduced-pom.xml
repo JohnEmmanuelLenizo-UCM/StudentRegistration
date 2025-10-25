@@ -8,7 +8,7 @@
     <plugins>
       <plugin>
         <artifactId>maven-shade-plugin</artifactId>
-        <version>3.5.2</version>
+        <version>3.5.3</version>
         <executions>
           <execution>
             <phase>package</phase>
@@ -18,8 +18,9 @@
             <configuration>
               <transformers>
                 <transformer>
-                  <mainClass>com.mycompany.studentregistration.StudentRegistration.java</mainClass>
+                  <mainClass>com.mycompany.studentregistration.StudentRegistration</mainClass>
                 </transformer>
+                <transformer />
               </transformers>
             </configuration>
           </execution>
